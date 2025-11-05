@@ -108,6 +108,6 @@ if __name__ == "__main__":
         print("\n--- Summary: Total Savings by Month/Year ---")
         print(df_summary)
         
-        # 4. Optional: Save results to CSV
+        # 4. Save results to CSV
         df_grants.to_csv("doge_all_grants.csv", index=False)
         df_summary.to_csv("doge_savings_summary.csv", index=False)
